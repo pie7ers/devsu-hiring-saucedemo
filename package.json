@@ -1,0 +1,27 @@
+{
+  "name": "devsu-hiring-saucedemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run --browser chrome",
+    "cypress:open": "cypress open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.33.0",
+  "devDependencies": {
+    "@types/node": "^25.9.3",
+    "cypress": "^15.17.0",
+    "cypress-mochawesome-reporter": "^4.0.2",
+    "dotenv": "^17.4.2",
+    "env-var": "^7.5.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^6.0.3"
+  },
+  "engines": {
+    "node": ">=24.14.0",
+    "pnpm": ">=10.33.0"
+  }
+}
